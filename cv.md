@@ -28,8 +28,9 @@ I want to learn more about Front-end development. I think **RSSchooll** helps me
 
 ### Code Example:
 
-```
-    // Bad error message
+#### Bad word validation.
+
+```js
     function badWordErrorMessage() {
       inputBadWordIsValids.forEach((inputBadWordIsValid, index) => {
         if(!inputBadWordIsValid) {
