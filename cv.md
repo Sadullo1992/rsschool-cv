@@ -55,10 +55,12 @@ I want to learn more about Front-end development. I think **RSSchooll** helps me
 
 - Bachelor, Termez State University, Uzbekistan (_2012 - 2016_):
   - Applied mathematics and informatics
+- Master, ISMA University, Riga, Latvia (_2019 - 2021_):
+  - Master of business administration
 
 ### Courses:
 
-- Javascript + React on Udemy.com
+- Javascript + React on Udemy.com _(Ivan Petrichenko)_
 - RS Schools Course «JS/FE Course EN 2022» (in progress)
 
 ### Languages:
