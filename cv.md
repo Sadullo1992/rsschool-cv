@@ -18,11 +18,11 @@ I want to learn more about Front-end development. I think **RSSchooll** helps me
 
 ### Skills and Proficiency:
 
-- HTML
-- CSS(Framework Bootstrap, Preprocessor Sass and Less)
-- JavaScript
-- React.js(React Router, Hooks)
-- Version Control: Git(Remote Servie GitHUB)
+1. HTML
+2. CSS(Framework Bootstrap, Preprocessor Sass and Less)
+3. JavaScript
+4. React.js(React Router, Hooks)
+5. Version Control: Git(Remote Servie GitHUB)
 
 ***
 
@@ -63,6 +63,6 @@ I want to learn more about Front-end development. I think **RSSchooll** helps me
 
 ### Languages:
 
-- English - Intermediate
-- Uzbek - Native
-- Russian - Basic
+1. English - Intermediate
+2. Uzbek - Native
+3. Russian - Basic
