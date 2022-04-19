@@ -24,6 +24,119 @@
                 </nav>
             </div>
         </header>
-        
+
+        <!-- Main section -->
+        <main>
+            <div class="container">
+                <!-- About me -->
+                <section id="about_me" class="about-me"> 
+                    <img src="imgs/my_photo.jpg" alt="Sadullo Buriev">
+                    <h1>Sadullo Buriev</h1>
+                    <p>I want to learn more about Front-end development. I think <b>RSSchooll</b> helps me a lot.</p>
+                </section>
+                <!-- Skills -->
+                <section class="skills" id="skills">
+                    <h2>Skills</h2>
+                    <div class="process">
+                        <ul>
+                            <li>
+                                <h4>HTML</h4>
+                                <div class="process-item">
+                                    <div class="process-item-persent" style="width: 10%;">90%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>CSS</h4>
+                                <div class="process-item">
+                                    <div class="process-item-persent" style="width: 10%;">90%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>JavaScript</h4>
+                                <div class="process-item">
+                                    <div class="process-item-persent" style="width: 25%;">75%</div>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>REACT</h4>
+                                <div class="process-item">
+                                    <div class="process-item-persent" style="width: 30%;">70%</div>
+                                </div>
+                            </li>
+                        </ul>               
+                    </div>
+                </section>
+                <!-- Code example -->
+                <section class="code-example" id="code_example">
+                    <h2>Code Example</h2>
+                    <h4>Bad word validation</h4>
+<pre>
+    <code>
+    function badWordErrorMessage() {
+        inputBadWordIsValids.forEach((inputBadWordIsValid, index) => {
+            if(!inputBadWordIsValid) {
+                inputFields[index].nextSibling.innerText = 'Bad word is prohibited!';            
+                inputFields[index].style.borderColor = "red";
+            } else {
+                inputFields[index].nextSibling.innerText = '';
+                inputFields[index].style.borderColor = "#006dda";
+            }
+        });
+    }
+    </code>
+</pre>
+                </section>
+                <!-- Projects -->
+                <section class="projects" id="projects">
+                    <h2>Projects</h2>
+                    <div class="projects-inner">
+                        <div class="project-item">
+                            <a href="https://scholarshipvine.netlify.app" target="_blank">ScholarshipVine</a>
+                            <a href="https://scholarshipvine.netlify.app" target="_blank">
+                                <img src="imgs/scholarshipvine.jpg" alt="ScholarshipVine">
+                            </a>
+                        </div>
+                        <div class="project-item">
+                            <a href="https://foto-dino-demo-master-deploy.netlify.app" target="_blank">FotoDinoApp</a>
+                            <a href="https://foto-dino-demo-master-deploy.netlify.app" target="_blank">
+                                <img src="imgs/fotodinoapp.jpg" alt="FotoDinoApp">
+                            </a>
+                        </div>
+                        <div class="project-item">
+                            <a href="https://axit-deploy.netlify.app" target="_blank">AXIT</a>
+                            <a href="https://axit-deploy.netlify.app" target="_blank">
+                                <img src="imgs/axit.jpg" alt="AXIT">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- Education -->
+                <section class="education" id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li> Bachelor, Termez State University, Uzbekistan <i>(2012 - 2016)</i>
+                            <p>- Applied mathematics and informatics</p>
+                        </li>
+                        <li> Master, ISMA University, Riga, Latvia <i>(2019 - 2021)</i>
+                            <p>- Master of Business Administration</p>
+                        </li>                        
+                    </ul>
+                    <h4>Courses:</h4>
+                    <ul>
+                        <li> Master of business administration <i>(Ivan Petrichenko)</i>
+                        </li>
+                        <li> RS Schools Course «JS/FE Course EN 2022» <i>(in progress)</i>
+                        </li>                        
+                    </ul>
+                    <h4>Languages:</h4>
+                    <ul>
+                        <li> English - Intermidate</li>
+                        <li> Uzbek - Native</li>
+                        <li> Russian - Basic</li>                                        
+                    </ul>
+                </section> 
+            </div>
+        </main>
+
     </body>
 </html>
